@@ -8,16 +8,39 @@
     <link href="./styles/main.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="flex-container main-header">
-      <div class="wrapper">
-        <h3>Logo</h3>
-        <nav class="flex-container">
-          <a href="#">Home</a>
-          <a href="#">Post</a>
-          <a href="#">Portfolio</a>
-          <a href="#">About Us</a>
+    <div class="app-container">
+    <header class="main-header wrapper">
+      <div class="flex-container">
+        <h3 class="logo">Logo</h3>
+        <nav class="main-nav">
+          <a class="main-nav-item active" href="#">Home</a>
+          <a class="main-nav-item" href="#">Post</a>
+          <a class="main-nav-item" href="#">Portfolio</a>
+          <a class="main-nav-item" href="#">About Us</a>
         </nav>
       </div>
     </header>
+    <div class="flex-container app-main-content">
+      <aside class="aside">
+        <h3>Posts</h3>
+        <nav id="left-nav">
+          <!-- <a class="aside-nav-item" href="#">Post - 1</a>
+          <a class="aside-nav-item" href="#">Post - 2</a>
+          <a class="aside-nav-item" href="#">Post - 3</a>
+          <a class="aside-nav-item" href="#">Post - 4</a> -->
+        </nav>
+      </aside>
+      <section class="main-content">
+        <h2>Recent posts</h2>
+        <div id="posts"></div>
+      </section>
+    </div>
+    <footer class="main-footer">
+      <div class="wrapper">
+        <h3>Footer</h3>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="./js/main.js"></script>
   </body>
 </html>

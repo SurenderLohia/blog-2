@@ -1,18 +1,100 @@
+html {
+  font-size: 16px;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .wrapper {
-  width: 1000px;
-  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .flex-container {
   display: flex;
 }
 
+.logo {
+  flex: 1 1 0;
+}
+
 .main-header {
-  padding: 20px 0;
-  background-color: #cccccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #eee;
+}
+.main-footer {
+  padding: 10px 0;
+  background-color: #ccc;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.app-main-content {
+  width: 100%;
+  flex: 1;
+}
+
+.main-nav-item {
+  padding: 10px;
+  display: block;
+  color:darkcyan;
+  border-bottom: 2px solid #eee;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.aside-nav-item {
+  padding: 10px 0;
+  display: block;
+  color:darkcyan;
+  text-decoration: none;
+}
+
+.main-nav-item.active {
+  border-bottom-color: darkcyan;
+}
+
+.aside {
+  flex: 1;
+  background-color:#3f3f3f;
+  color: #fff;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 5;
+  padding: 20px;
+}
+
+.post-title {
+  margin: 0 0 10px 0;
+}
+
+.post-date {
+   margin: 0 0 10px 0;
+}
+
+.post-list-item {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }
