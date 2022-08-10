@@ -81,11 +81,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
 }
 
+.main-content-header-bar {
+  display: flex;
+  align-items: center;
+}
+
 .post-title {
   margin: 0 0 10px 0;
 }
 
-.post-date {
+.posted-by {
+  color: #828282;
    margin: 0 0 10px 0;
 }
 
@@ -97,4 +103,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .mb10 {
   margin-bottom: 10px;
+}
+
+.search-input {
+  margin-left: 10px;
+}
+
+.input-text {
+  padding: 5px;
+  height: 20px;
+  width: 200px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+}
+
+.select-box {
+  padding: 5px;
+  height: 32px;
+  width: 120px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
 }
